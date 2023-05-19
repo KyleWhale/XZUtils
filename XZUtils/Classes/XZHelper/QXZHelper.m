@@ -303,7 +303,7 @@
 }
 
 /// 公参 必传 手机设置获取 只有两个值 android / iOS
-+ (NSString *)ht_device {
++ (NSString *)device {
     return [[UIDevice currentDevice] systemName];
 }
 
@@ -651,7 +651,7 @@
 }
 
 //获取时区
-+ (NSString *)lgjeropj_destinationTimeZone {
++ (NSString *)destinationTimeZone {
     NSTimeZone* destinationTimeZone = [NSTimeZone localTimeZone];//获取当前时区信息
     NSInteger sourceGMTOffset = [destinationTimeZone secondsFromGMTForDate:[NSDate date]];//获取偏移秒数
     NSString * sourceGMT = [NSString stringWithFormat:@"%ld",sourceGMTOffset/3600];

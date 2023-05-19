@@ -105,9 +105,9 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)flattenHTML:(NSString *)html;
 
 /// 公参 必传 手机设置获取 只有两个值 android / iOS
-+ (NSString *)ht_device;
++ (NSString *)device;
 //获取时区
-+ (NSString *)lgjeropj_destinationTimeZone;
++ (NSString *)destinationTimeZone;
 
 @end
 

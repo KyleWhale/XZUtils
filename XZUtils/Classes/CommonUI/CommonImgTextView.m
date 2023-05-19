@@ -14,8 +14,8 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.userInteractionEnabled = NO;
-        [self ht_addSubviewImageView];
-        [self ht_addSubviewTextLabel];
+        [self addSubviewImageView];
+        [self addSubviewTextLabel];
     }
     return self;
 }
@@ -26,20 +26,20 @@
         self.userInteractionEnabled = NO;
         self.layer.cornerRadius = cornerRadius;
         self.layer.masksToBounds = YES;
-        [self ht_addSubviewImageView];
-        [self ht_addSubviewTextLabel];
+        [self addSubviewImageView];
+        [self addSubviewTextLabel];
     }
     return self;
 }
 
-- (void)ht_addSubviewImageView {
+- (void)addSubviewImageView {
     if (!_imageView) {
         _imageView = [[CommonImageView alloc] initWithFrame:CGRectZero contentMode:UIViewContentModeScaleAspectFit masksToBounds:YES];
     }
     [self addSubview:self.imageView];
 }
 
-- (void)ht_addSubviewTextLabel {
+- (void)addSubviewTextLabel {
     if (!_textLabel) {
         _textLabel = [[CommonLabel alloc] initWithFrame:CGRectZero font:[UIFont systemFontOfSize:15] text:@"" textColor:UIColor.clearColor textAlignment:NSTextAlignmentCenter numberOfLines:0];
     }
