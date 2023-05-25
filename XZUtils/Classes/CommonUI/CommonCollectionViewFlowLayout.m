@@ -26,7 +26,7 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        _isNeedUpdateFrame = YES;
+        _frameLayout = YES;
         _updateTag = 999;
     }
     return self;
@@ -80,7 +80,7 @@
         UICollectionViewLayoutAttributes *currentLayoutAttributes = attributes[i];
         // 上一个attributes
         UICollectionViewLayoutAttributes *prevLayoutAttributes = attributes[i-1];
-        if (!_isNeedUpdateFrame) {
+        if (!_frameLayout) {
             NSInteger originY = CGRectGetMaxY(prevLayoutAttributes.frame);
             CGRect frame = currentLayoutAttributes.frame;
             frame.origin.x = self.sectionInset.left;
@@ -111,7 +111,7 @@
             currentLayoutAttributes.frame = frame;
         }
     }
-    if (_isNeedUpdateFrame) {
+    if (_frameLayout) {
         UICollectionViewLayoutAttributes *collectionViewLayoutAttributes = [attributes lastObject];
         if (collectionViewLayoutAttributes) {
             CGFloat maxY = CGRectGetMaxY(collectionViewLayoutAttributes.frame);

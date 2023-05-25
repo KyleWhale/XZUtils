@@ -18,7 +18,7 @@ typedef void(^BLOCK_foldBlock)(NSInteger index, CGFloat maxX);
 @interface CommonCollectionViewFlowLayout : UICollectionViewFlowLayout
 
 /**是否需要更新CollectionView的Frame*/
-@property (nonatomic, assign) BOOL isNeedUpdateFrame;
+@property (nonatomic, assign) BOOL frameLayout;
 // 用于区分,默认999
 @property (nonatomic, assign) NSInteger updateTag;
 
