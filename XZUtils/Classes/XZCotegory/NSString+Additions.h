@@ -34,7 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
 +(BOOL)judgeStr:(NSString *)str1 with:(NSString *)str2;
 
 ///是否只包含空格
-+ (BOOL)isOnlySpace:(NSString *)str;
++ (BOOL)onlySpace:(NSString *)str;
 
 +(NSString *)getDeleteForeAfyString:(NSString *)str;
 

@@ -183,7 +183,7 @@
     return (str1.length>0)?[NSString stringWithFormat:@"%@.%@",str,str1]:str;
 }
 
-+ (BOOL)isOnlySpace:(NSString *)str{
++ (BOOL)onlySpace:(NSString *)str{
     if (str.length>0) {
         str = [str stringByReplacingOccurrencesOfString:@" " withString:@""];
         if (str.length==0) {
