@@ -14,7 +14,6 @@
 		0183BFC42A1605DA00739DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0183BFC22A1605DA00739DA5 /* LaunchScreen.storyboard */; };
 		0183BFC72A1605DA00739DA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BFC62A1605DA00739DA5 /* main.m */; };
 		0183C0582A16062F00739DA5 /* XZLocalstorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BFD42A16062F00739DA5 /* XZLocalstorage.m */; };
-		0183C0592A16062F00739DA5 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BFD82A16062F00739DA5 /* KeychainWrapper.m */; };
 		0183C05B2A16062F00739DA5 /* UIImage+HPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BFDE2A16062F00739DA5 /* UIImage+HPAdditions.m */; };
 		0183C05D2A16062F00739DA5 /* UIApplication+ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BFE12A16062F00739DA5 /* UIApplication+ActivityViewController.m */; };
 		0183C05E2A16062F00739DA5 /* UIColor+HPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183BFE22A16062F00739DA5 /* UIColor+HPAdditions.m */; };
@@ -29,7 +28,6 @@
 		0183C06F2A16062F00739DA5 /* UIControl+HPClickInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183C0052A16062F00739DA5 /* UIControl+HPClickInterval.m */; };
 		0183C0702A16062F00739DA5 /* UIFont+HPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183C0062A16062F00739DA5 /* UIFont+HPAdditions.m */; };
 		0183C0732A16062F00739DA5 /* QXZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183C00D2A16062F00739DA5 /* QXZHelper.m */; };
-		0183C0742A16062F00739DA5 /* ZYNetworkAccessibity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183C0102A16062F00739DA5 /* ZYNetworkAccessibity.m */; };
 		0183C0802A16062F00739DA5 /* CommonCollectionViewWaterFallsFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183C02E2A16062F00739DA5 /* CommonCollectionViewWaterFallsFlowLayout.m */; };
 		0183C0812A16062F00739DA5 /* CommonImgTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183C0312A16062F00739DA5 /* CommonImgTextView.m */; };
 		0183C0822A16062F00739DA5 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0183C0352A16062F00739DA5 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
@@ -64,9 +62,6 @@
 		0183BFC62A1605DA00739DA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0183BFD22A16062F00739DA5 /* XZLocalstorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZLocalstorage.h; sourceTree = "<group>"; };
 		0183BFD42A16062F00739DA5 /* XZLocalstorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZLocalstorage.m; sourceTree = "<group>"; };
-		0183BFD72A16062F00739DA5 /* KeychainConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainConfiguration.h; sourceTree = "<group>"; };
-		0183BFD82A16062F00739DA5 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
-		0183BFD92A16062F00739DA5 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
 		0183BFDD2A16062F00739DA5 /* NSURLSession+HPHttpProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+HPHttpProxy.h"; sourceTree = "<group>"; };
 		0183BFDE2A16062F00739DA5 /* UIImage+HPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HPAdditions.m"; sourceTree = "<group>"; };
 		0183BFE12A16062F00739DA5 /* UIApplication+ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+ActivityViewController.m"; sourceTree = "<group>"; };
@@ -94,8 +89,6 @@
 		0183C0062A16062F00739DA5 /* UIFont+HPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+HPAdditions.m"; sourceTree = "<group>"; };
 		0183C00D2A16062F00739DA5 /* QXZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXZHelper.m; sourceTree = "<group>"; };
 		0183C00E2A16062F00739DA5 /* QXZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXZHelper.h; sourceTree = "<group>"; };
-		0183C0102A16062F00739DA5 /* ZYNetworkAccessibity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYNetworkAccessibity.m; sourceTree = "<group>"; };
-		0183C0112A16062F00739DA5 /* ZYNetworkAccessibity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNetworkAccessibity.h; sourceTree = "<group>"; };
 		0183C02D2A16062F00739DA5 /* CommonCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCollectionViewFlowLayout.h; sourceTree = "<group>"; };
 		0183C02E2A16062F00739DA5 /* CommonCollectionViewWaterFallsFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCollectionViewWaterFallsFlowLayout.m; sourceTree = "<group>"; };
 		0183C02F2A16062F00739DA5 /* CommonImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonImageView.h; sourceTree = "<group>"; };
@@ -189,11 +182,9 @@
 			children = (
 				0183C0322A16062F00739DA5 /* TPKeyboardAvoiding */,
 				0183C02C2A16062F00739DA5 /* CommonUI */,
-				0183BFD62A16062F00739DA5 /* KeychainWrapper */,
 				0183BFDA2A16062F00739DA5 /* XZCotegory */,
 				0183C00C2A16062F00739DA5 /* XZHelper */,
 				0183BFD12A16062F00739DA5 /* XZUserInfo */,
-				0183C00F2A16062F00739DA5 /* ZYNetworkAccessibity */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -205,16 +196,6 @@
 				0183BFD42A16062F00739DA5 /* XZLocalstorage.m */,
 			);
 			path = XZUserInfo;
-			sourceTree = "<group>";
-		};
-		0183BFD62A16062F00739DA5 /* KeychainWrapper */ = {
-			isa = PBXGroup;
-			children = (
-				0183BFD72A16062F00739DA5 /* KeychainConfiguration.h */,
-				0183BFD92A16062F00739DA5 /* KeychainWrapper.h */,
-				0183BFD82A16062F00739DA5 /* KeychainWrapper.m */,
-			);
-			path = KeychainWrapper;
 			sourceTree = "<group>";
 		};
 		0183BFDA2A16062F00739DA5 /* XZCotegory */ = {
@@ -256,15 +237,6 @@
 				0183C00D2A16062F00739DA5 /* QXZHelper.m */,
 			);
 			path = XZHelper;
-			sourceTree = "<group>";
-		};
-		0183C00F2A16062F00739DA5 /* ZYNetworkAccessibity */ = {
-			isa = PBXGroup;
-			children = (
-				0183C0112A16062F00739DA5 /* ZYNetworkAccessibity.h */,
-				0183C0102A16062F00739DA5 /* ZYNetworkAccessibity.m */,
-			);
-			path = ZYNetworkAccessibity;
 			sourceTree = "<group>";
 		};
 		0183C02C2A16062F00739DA5 /* CommonUI */ = {
@@ -440,7 +412,6 @@
 				0183C0822A16062F00739DA5 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				0183C0802A16062F00739DA5 /* CommonCollectionViewWaterFallsFlowLayout.m in Sources */,
 				0183C0672A16062F00739DA5 /* NSURLSession+HPHttpProxy.m in Sources */,
-				0183C0742A16062F00739DA5 /* ZYNetworkAccessibity.m in Sources */,
 				0183C06F2A16062F00739DA5 /* UIControl+HPClickInterval.m in Sources */,
 				0183C05F2A16062F00739DA5 /* UITextView+HPPlaceholder.m in Sources */,
 				0183C08E2A16062F00739DA5 /* CommonCollectionCell.m in Sources */,
@@ -458,7 +429,6 @@
 				0183C0872A16062F00739DA5 /* CommonTextField.m in Sources */,
 				0183C08A2A16062F00739DA5 /* CommonCollectionViewFlowLayout.m in Sources */,
 				0183C05E2A16062F00739DA5 /* UIColor+HPAdditions.m in Sources */,
-				0183C0592A16062F00739DA5 /* KeychainWrapper.m in Sources */,
 				0183C0902A16062F00739DA5 /* CommonButton.m in Sources */,
 				0183BFB62A1605D600739DA5 /* AppDelegate.m in Sources */,
 				0183C0842A16062F00739DA5 /* TPKeyboardAvoidingScrollView.m in Sources */,
@@ -611,6 +581,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJT79Q8VZW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = XZUtils/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -624,7 +595,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = WhiteWhaleTech.XZUtils;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hao.dianying;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -639,6 +610,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJT79Q8VZW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = XZUtils/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -652,7 +624,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = WhiteWhaleTech.XZUtils;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hao.dianying;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
